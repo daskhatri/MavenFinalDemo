@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Maven Suite" duration-ms="88" started-at="2019-11-30T15:14:53 PKT" finished-at="2019-11-30T15:14:54 PKT">
+    <groups>
+    </groups>
+    <test name="Test Maven Testing" duration-ms="88" started-at="2019-11-30T15:14:53 PKT" finished-at="2019-11-30T15:14:54 PKT">
+      <class name="com.finexus.tests.TestDemo">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.finexus.tests.TestDemo@42e26948]" name="mul" duration-ms="8" started-at="2019-11-30T15:14:53 PKT" finished-at="2019-11-30T15:14:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.finexus.tests.TestDemo@42e26948]" name="sum" duration-ms="1" started-at="2019-11-30T15:14:54 PKT" finished-at="2019-11-30T15:14:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.finexus.tests.TestDemo@42e26948]" name="sub" duration-ms="0" started-at="2019-11-30T15:14:54 PKT" finished-at="2019-11-30T15:14:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- com.finexus.tests.TestDemo -->
+      <class name="com.finexus.tests.TestDemo2">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.finexus.tests.TestDemo2@57baeedf]" name="mul" duration-ms="1" started-at="2019-11-30T15:14:54 PKT" finished-at="2019-11-30T15:14:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.finexus.tests.TestDemo2@57baeedf]" name="sub" duration-ms="0" started-at="2019-11-30T15:14:54 PKT" finished-at="2019-11-30T15:14:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.finexus.tests.TestDemo2@57baeedf]" name="sum" duration-ms="0" started-at="2019-11-30T15:14:54 PKT" finished-at="2019-11-30T15:14:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.finexus.tests.TestDemo2 -->
+    </test> <!-- Test Maven Testing -->
+  </suite> <!-- Test Maven Suite -->
+</testng-results>
