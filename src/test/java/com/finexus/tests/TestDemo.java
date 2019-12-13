@@ -12,7 +12,7 @@ public class TestDemo {
 		int a = 10;
 		int b = 20;
 
-		Assert.assertEquals(false);
+		Assert.assertEquals(40, a + b);
 	}
 
 	
