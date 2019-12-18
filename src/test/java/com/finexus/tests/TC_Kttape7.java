@@ -2,8 +2,9 @@ package com.finexus.tests;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
-import org.testng.annotations.*;
-import static org.testng.Assert.*;
+import org.junit.*;
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -14,7 +15,7 @@ public class TCKttape7 {
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
-  @BeforeClass(alwaysRun = true)
+  @Before
   public void setUp() throws Exception {
     driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
@@ -32,7 +33,7 @@ public class TCKttape7 {
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='$79.98'])[3]/following::span[1]")).click();
   }
 
-  @AfterClass(alwaysRun = true)
+  @After
   public void tearDown() throws Exception {
     driver.quit();
     String verificationErrorString = verificationErrors.toString();
