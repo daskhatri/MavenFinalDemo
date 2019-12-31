@@ -14,9 +14,11 @@ public class CoderaTC {
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
+  
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    driver = new ChromeDriver();
+	  WebDriverManager.chromedriver().setup();
+	  driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
