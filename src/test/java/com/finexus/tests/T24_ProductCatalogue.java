@@ -44,12 +44,12 @@ public class T24_ProductCatalogue {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-	@DataProvider
-	public Object[][] getLoginData() {
-		Object data[][] = TestUtil.getTestData("login");
-		
-		return data;
-	}
+//	@DataProvider
+//	public Object[][] getLoginData() {
+//		Object data[][] = TestUtil.getTestData("login");
+//		
+//		return data;
+//	}
 //	@Test(dataProvider = "getLoginData")
 //	public void testT24_TcScripting(String userName, String password) throws Exception {
 	@Test
