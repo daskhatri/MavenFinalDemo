@@ -8,6 +8,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class MavFDTest1 {
   private WebDriver driver;
   private String baseUrl;
@@ -16,6 +18,7 @@ public class MavFDTest1 {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
+	  WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
