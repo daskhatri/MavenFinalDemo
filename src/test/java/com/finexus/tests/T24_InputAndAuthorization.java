@@ -1,4 +1,4 @@
-package com.finexus.productCatalogue;
+package com.finexus.tests;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
