@@ -18,6 +18,7 @@ public class NewTestCase1 {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
+	  WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
