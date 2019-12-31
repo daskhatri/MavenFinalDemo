@@ -1,12 +1,21 @@
 package com.finexus.tests;
 
-import java.util.regex.Pattern;
+
+import static org.testng.Assert.fail;
+
 import java.util.concurrent.TimeUnit;
-import org.testng.annotations.*;
-import static org.testng.Assert.*;
-import org.openqa.selenium.*;
+
+import org.junit.BeforeClass;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CoderaTC {
   private WebDriver driver;
@@ -15,7 +24,7 @@ public class CoderaTC {
   private StringBuffer verificationErrors = new StringBuffer();
 
   
-  @BeforeClass(alwaysRun = true)
+  @BeforeClass
   public void setUp() throws Exception {
 	  WebDriverManager.chromedriver().setup();
 	  driver = new ChromeDriver();
