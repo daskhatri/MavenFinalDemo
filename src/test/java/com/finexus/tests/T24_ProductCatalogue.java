@@ -22,7 +22,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.finexus.util.TestUtil;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
