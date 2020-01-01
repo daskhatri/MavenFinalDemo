@@ -1,4 +1,4 @@
-package com.finexus.tests;
+package com.finexus.test;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
