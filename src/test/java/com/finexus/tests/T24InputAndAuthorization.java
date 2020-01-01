@@ -1,13 +1,9 @@
-package com.finexus.tests;
+package com.finexus.productCatalogue;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-import org.testng.annotations.BeforeMethod;
-import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -18,8 +14,12 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.*;
 
-public class T24_InputAndAuthorization {
+//import com.finexus.util.TestUtil;
+
+public class T24InputAndAuthorization {
 	private WebDriver driver;
 	private String baseUrl;
 	private boolean acceptNextAlert = true;
@@ -36,8 +36,17 @@ public class T24_InputAndAuthorization {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-	@Test
-	public void testT24Tc2Commit() throws Exception {
+//	@DataProvider
+//	public Object[][] getLoginData() {
+//		Object data[][] = TestUtil.getTestData("login");
+//		
+//		return data;
+//	}
+//	@Test(dataProvider = "getLoginData")
+//	public void testT24InputAndAuthorization(String userName, String password) throws Exception {
+	@Test()
+	public void testT24InputAndAuthorization() throws Exception {
+
 		driver.get("http://52.220.141.104:8080/BrowserWeb/servlet/BrowserServlet");
 		driver.findElement(By.id("signOnName")).clear();
 		driver.findElement(By.id("signOnName")).sendKeys("ALI001");
@@ -54,8 +63,6 @@ public class T24_InputAndAuthorization {
 
 		driver.findElement(By.xpath("//*[@id=\"pane_\"]/ul[1]/li/span")).click();
 
-//		String selectLinkOpeninNewTab = Keys.chord(Keys.CONTROL,Keys.RETURN); 
-//		driver.findElement(By.linkText("Product Catalog")).sendKeys(selectLinkOpeninNewTab);
 
 		// considering that there is only one tab opened in that point.
 		String userMenuWindow = driver.getWindowHandle();
