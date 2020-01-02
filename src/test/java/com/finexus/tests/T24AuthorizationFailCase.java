@@ -1,4 +1,4 @@
-package com.finexus.productCatalogue;
+package com.finexus.tests;
 import java.util.regex.Pattern;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
