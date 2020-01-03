@@ -7,9 +7,8 @@ import static org.testng.Assert.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class FacebookTC {
+public class Demo1 {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -17,21 +16,28 @@ public class FacebookTC {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-	  WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
   @Test
-  public void testFacebookTC() throws Exception {
-    driver.get("https://www.facebook.com/");
-    driver.findElement(By.name("email")).click();
-    driver.findElement(By.name("email")).clear();
-    driver.findElement(By.name("email")).sendKeys("blubd.softtech@gmail.com");
-    driver.findElement(By.name("pass")).clear();
-    driver.findElement(By.name("pass")).sendKeys("1232w34123");
-    driver.findElement(By.name("login")).click();
+  public void testDemo1() throws Exception {
+    driver.get("http://52.220.141.104:8080/BrowserWeb/servlet/BrowserServlet");
+    driver.findElement(By.id("signOnName")).click();
+    driver.findElement(By.id("signOnName")).clear();
+    driver.findElement(By.id("signOnName")).sendKeys("ALI001");
+    driver.findElement(By.id("password")).clear();
+    driver.findElement(By.id("password")).sendKeys("demotest");
+    driver.findElement(By.name("login")).submit();
+    // ERROR: Caught exception [ERROR: Unsupported command [selectFrame | index=1 | ]]
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Customer Relationship'])[1]/preceding::span[1]")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='View Collateral Management Alert'])[1]/following::span[1]")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Authorise Vostro/Nostro Account'])[1]/following::span[1]")).click();
+    driver.findElement(By.linkText("Account Transfer")).click();
+    // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | win_ser_1 | ]]
+    // ERROR: Caught exception [ERROR: Unsupported command [selectFrame | index=0 | ]]
+    driver.findElement(By.linkText("Transfer between Accounts")).click();
   }
 
   @AfterClass(alwaysRun = true)
