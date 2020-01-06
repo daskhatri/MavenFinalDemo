@@ -36,9 +36,9 @@ public class T24AuthorizationFailCase {
 		driver.get("http://52.220.141.104:8080/BrowserWeb/servlet/BrowserServlet");
 		driver.findElement(By.id("signOnName")).click();
 		driver.findElement(By.id("signOnName")).clear();
-		driver.findElement(By.id("signOnName")).sendKeys("ALI001");
+		driver.findElement(By.id("signOnName")).sendKeys("INPUTT");
 		driver.findElement(By.id("password")).clear();
-		driver.findElement(By.id("password")).sendKeys("demotest");
+		driver.findElement(By.id("password")).sendKeys("12341234");
 		driver.findElement(By.id("sign-in")).click();
 		// ERROR: Caught exception [ERROR: Unsupported command [selectFrame | index=1 |
 		// ]]
@@ -67,18 +67,17 @@ public class T24AuthorizationFailCase {
 		driver.findElement(By.linkText("Find")).click();
 		Thread.sleep(5000);
 		String unAthorizedWindow = driver.getWindowHandle();
+		//UN AUTHORIZED OVERVIEW image button
+//		/html/body/table/tbody/tr/td/table/tbody/tr[2]/td/div[3]/div/form/div/table/tbody/tr[2]/td[2]/div[2]/div/table[1]/tbody/tr/td[7]/a/img
 		driver.findElement(By.xpath(
-				"/html/body/table/tbody/tr/td/table/tbody/tr[2]/td/div[3]/div/form/div/table/tbody/tr[2]/td[2]/div[2]/div/table[1]/tbody/tr/td[7]/a/img"))
-				.click();
+				"//*[(@title='Overview')]")).click();
 		ArrayList<String> arrangementOverviewWindow = new ArrayList<String>(driver.getWindowHandles());
 		arrangementOverviewWindow.remove(unAthorizedWindow);
 		// change focus to new tab
 		driver.switchTo().window(arrangementOverviewWindow.get(1));
 		// Approve button click
 		String arrangementWin = driver.getWindowHandle();
-		driver.findElement(By.xpath(
-				"/html/body/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[1]/td/div[3]/div/form/div/table/tbody/tr[2]/td[2]/div[2]/div/table[1]/tbody/tr/td[7]/table/tbody/tr/td[2]/a/img"))
-				.click();
+		driver.findElement(By.xpath("//*[(@class='iconLink')]")).click();
 		ArrayList<String> allWindowsList = new ArrayList<String>(driver.getWindowHandles());
 		allWindowsList.remove(arrangementWin);
 		driver.switchTo().window(allWindowsList.get(2));
