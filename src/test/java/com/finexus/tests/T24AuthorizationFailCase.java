@@ -67,19 +67,26 @@ public class T24AuthorizationFailCase {
 		driver.findElement(By.linkText("Find")).click();
 		Thread.sleep(5000);
 		String unAthorizedWindow = driver.getWindowHandle();
-		//UN AUTHORIZED OVERVIEW image button
-//		/html/body/table/tbody/tr/td/table/tbody/tr[2]/td/div[3]/div/form/div/table/tbody/tr[2]/td[2]/div[2]/div/table[1]/tbody/tr/td[7]/a/img
+		
+		
+		//********** UN AUTHORIZED OVERVIEW image button *******************
+		
 		driver.findElement(By.xpath(
 				"//*[(@title='Overview')]")).click();
 		ArrayList<String> arrangementOverviewWindow = new ArrayList<String>(driver.getWindowHandles());
 		arrangementOverviewWindow.remove(unAthorizedWindow);
 		// change focus to new tab
 		driver.switchTo().window(arrangementOverviewWindow.get(1));
-		// Approve button click
+	
+		// ********* Approve button click *********************
 		String arrangementWin = driver.getWindowHandle();
 		driver.findElement(By.xpath("//*[(@class='iconLink')]")).click();
+		
+		// Getting available handles from driver
 		ArrayList<String> allWindowsList = new ArrayList<String>(driver.getWindowHandles());
 		allWindowsList.remove(arrangementWin);
+		
+		// Shift Focus on new window, i.e Switching 
 		driver.switchTo().window(allWindowsList.get(2));
 
 		Thread.sleep(5000);
