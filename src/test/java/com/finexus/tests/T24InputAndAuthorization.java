@@ -2,7 +2,7 @@ package com.finexus.tests;
 
 
 
-//import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
@@ -25,10 +25,10 @@ public class T24InputAndAuthorization {
 	private boolean acceptNextAlert = true;
 	private StringBuffer verificationErrors = new StringBuffer();
 
-//	@BeforeClass
-//	public static void setupClass() {
-//		WebDriverManager.chromedriver().setup();
-//	}
+	@BeforeClass
+	public static void setupClass() {
+		WebDriverManager.chromedriver().setup();
+	}
 	@BeforeMethod
 	public void setUp() throws Exception {
 		driver = new ChromeDriver();
