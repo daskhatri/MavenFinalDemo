@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.639" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="315.531" tests="14" errors="0" skipped="0" failures="8">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\workspaces-eclipse\MavenDemoTest\target\test-classes;D:\workspaces-eclipse\MavenDemoTest\target\classes;C:\Users\NOOR TECH\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\NOOR TECH\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\NOOR TECH\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NOOR TECH\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\NOOR TECH\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NOOR TECH\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\NOOR TECH\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\NOOR TECH\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NOOR TECH\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NOOR TECH\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\NOOR TECH\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="java.class.path" value="D:\mirtalk-ws-eclipse\TestAutomationServer\MavenFinalDemo\target\test-classes;D:\mirtalk-ws-eclipse\TestAutomationServer\MavenFinalDemo\target\classes;C:\Users\NOOR TECH\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\NOOR TECH\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\NOOR TECH\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NOOR TECH\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\NOOR TECH\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NOOR TECH\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\NOOR TECH\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\NOOR TECH\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NOOR TECH\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NOOR TECH\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\NOOR TECH\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\NOOR TECH\AppData\Local\Temp\surefire87675431700884651\surefirebooter5276404598345686708.jar C:\Users\NOOR TECH\AppData\Local\Temp\surefire87675431700884651 2019-11-30T16-38-26_518-jvmRun1 surefire8418923481807999986tmp surefire_07936470669626887635tmp"/>
-    <property name="surefire.test.class.path" value="D:\workspaces-eclipse\MavenDemoTest\target\test-classes;D:\workspaces-eclipse\MavenDemoTest\target\classes;C:\Users\NOOR TECH\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\NOOR TECH\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\NOOR TECH\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NOOR TECH\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\NOOR TECH\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NOOR TECH\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\NOOR TECH\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\NOOR TECH\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NOOR TECH\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NOOR TECH\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\NOOR TECH\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="sun.java.command" value="C:\Users\NOOR TECH\AppData\Local\Temp\surefire5169131946937300921\surefirebooter1329195449382115313.jar C:\Users\NOOR TECH\AppData\Local\Temp\surefire5169131946937300921 2020-01-13T11-00-29_936-jvmRun1 surefire1896878587751394547tmp surefire_06190974852283846478tmp"/>
+    <property name="surefire.test.class.path" value="D:\mirtalk-ws-eclipse\TestAutomationServer\MavenFinalDemo\target\test-classes;D:\mirtalk-ws-eclipse\TestAutomationServer\MavenFinalDemo\target\classes;C:\Users\NOOR TECH\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\NOOR TECH\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\NOOR TECH\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\NOOR TECH\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NOOR TECH\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\NOOR TECH\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NOOR TECH\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\NOOR TECH\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\NOOR TECH\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NOOR TECH\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NOOR TECH\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\NOOR TECH\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\NOOR TECH"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
-    <property name="basedir" value="D:\workspaces-eclipse\MavenDemoTest"/>
+    <property name="basedir" value="D:\mirtalk-ws-eclipse\TestAutomationServer\MavenFinalDemo"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\NOOR TECH\AppData\Local\Temp\surefire87675431700884651\surefirebooter5276404598345686708.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\NOOR TECH\AppData\Local\Temp\surefire5169131946937300921\surefirebooter1329195449382115313.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,12 +47,12 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\NOORTE~1\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_211"/>
-    <property name="user.dir" value="D:\workspaces-eclipse\MavenDemoTest"/>
+    <property name="user.dir" value="D:\mirtalk-ws-eclipse\TestAutomationServer\MavenFinalDemo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\apache-maven-3.6.1\bin;C:\webdrivers;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\NOOR TECH\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\NOOR TECH\AppData\Local\Programs\Python\Python37\;C:\Users\NOOR TECH\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\NOOR TECH\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NOOR TECH\AppData\Local\GitHubDesktop\bin;C:\webdrivers;C:\Users\NOOR TECH\AppData\Roaming\npm;C:\Users\NOOR TECH\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\apache-maven-3.6.1\bin;C:\webdrivers;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\NOOR TECH\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\NOOR TECH\AppData\Local\Programs\Python\Python37\;C:\Users\NOOR TECH\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\NOOR TECH\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NOOR TECH\AppData\Local\GitHubDesktop\bin;C:\Users\NOOR TECH\AppData\Roaming\npm;C:\Program Files (x86)\GnuWin32\bin;C:\curl-7.67.0-win64-mingw\bin;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.211-b12"/>
@@ -60,11 +60,139 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testCuraHealth6" classname="com.finexus.tests.TestCuraHealth6" time="7.613"/>
-  <testcase name="mul" classname="com.finexus.tests.TestDemo" time="0.003"/>
-  <testcase name="sub" classname="com.finexus.tests.TestDemo" time="0.001"/>
-  <testcase name="sum" classname="com.finexus.tests.TestDemo" time="0.001"/>
-  <testcase name="mul" classname="com.finexus.tests.TestDemo2" time="0.003"/>
-  <testcase name="sub" classname="com.finexus.tests.TestDemo2" time="0.001"/>
-  <testcase name="sum" classname="com.finexus.tests.TestDemo2" time="0.001"/>
+  <testcase name="testCoderaTC" classname="com.finexus.tests.CoderaTC" time="41.448">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Home&quot;}&#10;  (Session info: chrome=77.0.3865.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-JCEGEB0&apos;, ip: &apos;192.168.1.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 56f82192aff8b7ada80c658fd0287de0&#10;*** Element info: {Using=link text, value=Home}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Home"}
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 56f82192aff8b7ada80c658fd0287de0
+*** Element info: {Using=link text, value=Home}
+	at com.finexus.tests.CoderaTC.testCoderaTC(CoderaTC.java:38)
+]]></failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 28749
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 13, 2020 11:00:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testMavFDOrangeCRM" classname="com.finexus.tests.MavFDOrangeCRM" time="33.792">
+    <failure message="element not interactable&#10;  (Session info: chrome=77.0.3865.75)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-JCEGEB0&apos;, ip: &apos;192.168.1.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 49063c9bb869069a983a107bd73129bf" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=77.0.3865.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 49063c9bb869069a983a107bd73129bf
+	at com.finexus.tests.MavFDOrangeCRM.testMavFDOrangeCRM(MavFDOrangeCRM.java:33)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 46049
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 13, 2020 11:01:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testMavFDTest1" classname="com.finexus.tests.MavFDTest1" time="40.697">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;sign up&quot;}&#10;  (Session info: chrome=77.0.3865.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-JCEGEB0&apos;, ip: &apos;192.168.1.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 74e76793ed1aaad5205086abeb6a02dd&#10;*** Element info: {Using=link text, value=sign up}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"sign up"}
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 74e76793ed1aaad5205086abeb6a02dd
+*** Element info: {Using=link text, value=sign up}
+	at com.finexus.tests.MavFDTest1.testMavFDTest1(MavFDTest1.java:30)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 9070
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 13, 2020 11:01:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testNewTestCase1" classname="com.finexus.tests.NewTestCase1" time="8.247"/>
+  <testcase name="testOrangeHrmTC1" classname="com.finexus.tests.OrangeHrmTC1" time="32.843">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(.//*[normalize-space(text()) and normalize-space(.)=&apos;Panel de inicio de sesión&apos;])[1]/following::span[1]&quot;}&#10;  (Session info: chrome=77.0.3865.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-JCEGEB0&apos;, ip: &apos;192.168.1.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 32c865b596a46dc53639757a86c03c3c&#10;*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)=&apos;Panel de inicio de sesión&apos;])[1]/following::span[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Panel de inicio de sesión'])[1]/following::span[1]"}
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32c865b596a46dc53639757a86c03c3c
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Panel de inicio de sesión'])[1]/following::span[1]}
+	at com.finexus.tests.OrangeHrmTC1.testOrangeHrmTC1(OrangeHrmTC1.java:30)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 6496
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 13, 2020 11:02:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testT24AuthorizationFailCase" classname="com.finexus.tests.T24AuthorizationFailCase" time="15.703">
+    <failure message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at com.finexus.tests.T24AuthorizationFailCase.testT24AuthorizationFailCase(T24AuthorizationFailCase.java:62)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 36104
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 13, 2020 11:03:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testT24InputAndAuthorization" classname="com.finexus.tests.T24InputAndAuthorization" time="47.79"/>
+  <testcase name="testT24ProductCatalogue" classname="com.finexus.tests.T24ProductCatalogue" time="18.609">
+    <failure message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at com.finexus.tests.T24ProductCatalogue.testT24ProductCatalogue(T24ProductCatalogue.java:85)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 45477
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 13, 2020 11:04:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCuraHealth6" classname="com.finexus.tests.TestCuraHealth6" time="8.691"/>
+  <testcase name="sumUp" classname="com.finexus.tests.TestDemo" time="0.009">
+    <failure message="expected [30] but found [40]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [30] but found [40]
+	at com.finexus.tests.TestDemo.sumUp(TestDemo.java:15)
+]]></failure>
+    <system-out><![CDATA[SUM 
+]]></system-out>
+  </testcase>
+  <testcase name="mul" classname="com.finexus.tests.TestDemo2" time="0.002"/>
+  <testcase name="sub" classname="com.finexus.tests.TestDemo2" time="0.003"/>
+  <testcase name="sum" classname="com.finexus.tests.TestDemo2" time="0.004"/>
+  <testcase name="testNoorSamiDas" classname="com.finexus.tests.TestNoorSamiDas" time="34.822">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(.//*[normalize-space(text()) and normalize-space(.)=&apos;Listado de licencias y permisos&apos;])[2]/following::img[1]&quot;}&#10;  (Session info: chrome=77.0.3865.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-JCEGEB0&apos;, ip: &apos;192.168.1.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: bbfe23d2f5035425cf05b572e3380902&#10;*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)=&apos;Listado de licencias y permisos&apos;])[2]/following::img[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Listado de licencias y permisos'])[2]/following::img[1]"}
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bbfe23d2f5035425cf05b572e3380902
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Listado de licencias y permisos'])[2]/following::img[1]}
+	at com.finexus.tests.TestNoorSamiDas.testNoorSamiDas(TestNoorSamiDas.java:36)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 36867
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 13, 2020 11:05:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>

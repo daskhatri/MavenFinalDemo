@@ -1,2 +1,13 @@
-com\finexus\tests\TestDemo.class
+com\finexus\tests\T24ProductCatalogue.class
 com\finexus\tests\TestDemo2.class
+com\finexus\tests\T24AuthorizationFailCase.class
+com\finexus\tests\TestCuraHealth6.class
+com\finexus\tests\T24InputAndAuthorization.class
+com\finexus\tests\MavFDTest1.class
+com\finexus\tests\MavFDOrangeCRM.class
+com\finexus\tests\NewTestCase1.class
+TEST1.class
+com\finexus\tests\TestNoorSamiDas.class
+com\finexus\tests\CoderaTC.class
+com\finexus\tests\TestDemo.class
+com\finexus\tests\OrangeHrmTC1.class

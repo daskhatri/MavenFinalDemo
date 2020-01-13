@@ -1,4 +1,79 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.639 s - in TestSuite
+Tests run: 14, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 315.531 s <<< FAILURE! - in TestSuite
+com.finexus.tests.CoderaTC.testCoderaTC  Time elapsed: 41.448 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Home"}
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 56f82192aff8b7ada80c658fd0287de0
+*** Element info: {Using=link text, value=Home}
+	at com.finexus.tests.CoderaTC.testCoderaTC(CoderaTC.java:38)
+
+com.finexus.tests.MavFDOrangeCRM.testMavFDOrangeCRM  Time elapsed: 33.792 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=77.0.3865.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 49063c9bb869069a983a107bd73129bf
+	at com.finexus.tests.MavFDOrangeCRM.testMavFDOrangeCRM(MavFDOrangeCRM.java:33)
+
+com.finexus.tests.MavFDTest1.testMavFDTest1  Time elapsed: 40.697 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"sign up"}
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 74e76793ed1aaad5205086abeb6a02dd
+*** Element info: {Using=link text, value=sign up}
+	at com.finexus.tests.MavFDTest1.testMavFDTest1(MavFDTest1.java:30)
+
+com.finexus.tests.OrangeHrmTC1.testOrangeHrmTC1  Time elapsed: 32.843 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Panel de inicio de sesión'])[1]/following::span[1]"}
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32c865b596a46dc53639757a86c03c3c
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Panel de inicio de sesión'])[1]/following::span[1]}
+	at com.finexus.tests.OrangeHrmTC1.testOrangeHrmTC1(OrangeHrmTC1.java:30)
+
+com.finexus.tests.T24AuthorizationFailCase.testT24AuthorizationFailCase  Time elapsed: 15.703 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at com.finexus.tests.T24AuthorizationFailCase.testT24AuthorizationFailCase(T24AuthorizationFailCase.java:62)
+
+com.finexus.tests.T24ProductCatalogue.testT24ProductCatalogue  Time elapsed: 18.609 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at com.finexus.tests.T24ProductCatalogue.testT24ProductCatalogue(T24ProductCatalogue.java:85)
+
+com.finexus.tests.TestDemo.sumUp  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: expected [30] but found [40]
+	at com.finexus.tests.TestDemo.sumUp(TestDemo.java:15)
+
+com.finexus.tests.TestNoorSamiDas.testNoorSamiDas  Time elapsed: 34.822 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Listado de licencias y permisos'])[2]/following::img[1]"}
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bbfe23d2f5035425cf05b572e3380902
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Listado de licencias y permisos'])[2]/following::img[1]}
+	at com.finexus.tests.TestNoorSamiDas.testNoorSamiDas(TestNoorSamiDas.java:36)
+

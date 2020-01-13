@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test Maven Suite]">
+  <test thread-count="5" verbose="0" name="Test Maven Testing(failed)">
+    <classes>
+      <class name="com.finexus.tests.T24AuthorizationFailCase">
+        <methods>
+          <include name="testT24AuthorizationFailCase"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.finexus.tests.T24AuthorizationFailCase -->
+      <class name="com.finexus.tests.T24ProductCatalogue">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testT24ProductCatalogue"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.finexus.tests.T24ProductCatalogue -->
+      <class name="com.finexus.tests.CoderaTC">
+        <methods>
+          <include name="testCoderaTC"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.finexus.tests.CoderaTC -->
+      <class name="com.finexus.tests.MavFDOrangeCRM">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testMavFDOrangeCRM"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.finexus.tests.MavFDOrangeCRM -->
+      <class name="com.finexus.tests.TestDemo">
+        <methods>
+          <include name="sumUp"/>
+        </methods>
+      </class> <!-- com.finexus.tests.TestDemo -->
+      <class name="com.finexus.tests.OrangeHrmTC1">
+        <methods>
+          <include name="setUp"/>
+          <include name="testOrangeHrmTC1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.finexus.tests.OrangeHrmTC1 -->
+      <class name="com.finexus.tests.TestNoorSamiDas">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testNoorSamiDas"/>
+        </methods>
+      </class> <!-- com.finexus.tests.TestNoorSamiDas -->
+      <class name="com.finexus.tests.MavFDTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testMavFDTest1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.finexus.tests.MavFDTest1 -->
+    </classes>
+  </test> <!-- Test Maven Testing(failed) -->
+</suite> <!-- Failed suite [Test Maven Suite] -->
