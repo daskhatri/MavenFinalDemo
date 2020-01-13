@@ -2,7 +2,7 @@ package com.finexus.tests;
 
 import static org.testng.Assert.fail;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.concurrent.TimeUnit;
 

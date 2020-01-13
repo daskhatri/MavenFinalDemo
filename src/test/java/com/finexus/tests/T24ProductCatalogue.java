@@ -25,7 +25,7 @@ import org.testng.annotations.Test;
 
 //import com.finexus.util.TestUtil;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class T24ProductCatalogue {
 	private WebDriver driver;

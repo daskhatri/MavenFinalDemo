@@ -2,7 +2,7 @@ package com.finexus.tests;
 
 
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
