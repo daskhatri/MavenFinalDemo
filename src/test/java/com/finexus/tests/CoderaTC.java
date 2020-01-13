@@ -15,7 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
-//import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CoderaTC {
   private WebDriver driver;
@@ -26,7 +26,7 @@ public class CoderaTC {
   
   @BeforeClass
   public void setUp() throws Exception {
-//	  WebDriverManager.chromedriver().setup();
+	  WebDriverManager.chromedriver().setup();
 	  driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

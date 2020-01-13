@@ -2,7 +2,7 @@ package com.finexus.tests;
 
 import static org.testng.Assert.fail;
 
-//import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.concurrent.TimeUnit;
 
@@ -24,7 +24,7 @@ public class TestCuraHealth6 {
 
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws Exception {
-//		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		baseUrl = "https://www.katalon.com/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
