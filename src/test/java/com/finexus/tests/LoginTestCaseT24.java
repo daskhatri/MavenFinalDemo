@@ -10,7 +10,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class FullyAutomatedTest786 {
+public class LoginTestCaseT24 {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -24,8 +24,9 @@ public class FullyAutomatedTest786 {
   }
 
   @Test
-  public void testFullyAutomatedTest786() throws Exception {
+  public void testLoginTestCaseT24() throws Exception {
     driver.get("http://52.220.141.104:8080/BrowserWeb/servlet/BrowserServlet");
+    driver.findElement(By.id("signOnName")).click();
     driver.findElement(By.id("signOnName")).clear();
     driver.findElement(By.id("signOnName")).sendKeys("ALI001");
     driver.findElement(By.id("password")).clear();
@@ -38,12 +39,12 @@ public class FullyAutomatedTest786 {
 	 selectWindow(1 );
 	 selectFrame(2);
 
-    driver.findElement(By.id("treestop3")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Term Deposits'])[1]/following::img[1]")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Accounts'])[2]/a[1]")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Current Accounts'])[1]/following::img[1]")).click();
 	 selectParentFrame();
 	 selectFrame(4);
 
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='PB Term Deposit'])[1]/following::img[1]")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='BMO Call Account'])[1]/following::img[1]")).click();
 	 selectWindow(2 );
     driver.findElement(By.id("fieldName:CUSTOMER:1")).click();
     driver.findElement(By.id("fieldName:CUSTOMER:1")).clear();
@@ -52,21 +53,6 @@ public class FullyAutomatedTest786 {
     driver.findElement(By.id("fieldName:CURRENCY")).sendKeys("USD");
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='New Arrangement'])[1]/preceding::img[11]")).click();
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='New Arrangement'])[1]/preceding::img[12]")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='(SG TEST)'])[1]/following::span[1]")).click();
-    driver.findElement(By.linkText("Deposit Interest")).click();
-    driver.findElement(By.id("fieldName:FIXED.RATE:1")).click();
-    driver.findElement(By.id("fieldName:FIXED.RATE:1")).click();
-    driver.findElement(By.id("fieldName:FIXED.RATE:1")).clear();
-    driver.findElement(By.id("fieldName:FIXED.RATE:1")).sendKeys("5.5");
-    driver.findElement(By.linkText("Settlement Instructions")).click();
-    driver.findElement(By.id("fieldName:PAYIN.SETTLEMENT:1")).click();
-    new Select(driver.findElement(By.id("fieldName:PAYIN.SETTLEMENT:1"))).selectByVisibleText("No");
-    driver.findElement(By.id("fieldName:PAYIN.SETTLEMENT:1")).click();
-    driver.findElement(By.id("fieldName:PAYOUT.SETTLEMENT:1")).click();
-    new Select(driver.findElement(By.id("fieldName:PAYOUT.SETTLEMENT:1"))).selectByVisibleText("No");
-    driver.findElement(By.id("fieldName:PAYOUT.SETTLEMENT:1")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='New Arrangement'])[1]/preceding::img[12]")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='(SG TEST)'])[1]/following::td[7]")).click();
   }
 
 public void selectFrame(int index) {
