@@ -1,6 +1,6 @@
 package com.finexus.tests; 
- import io.github.bonigarcia.wdm.WebDriverManager; 
- import java.util.ArrayList;
+import io.github.bonigarcia.wdm.WebDriverManager; 
+import java.util.ArrayList;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
