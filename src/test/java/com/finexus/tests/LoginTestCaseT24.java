@@ -34,25 +34,23 @@ public class LoginTestCaseT24 {
     driver.findElement(By.id("sign-in")).click();
 	 selectFrame(1);
 
-    driver.findElement(By.id("imgError")).click();
-    driver.findElement(By.linkText("Product Catalog")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Product Catalog'])[1]/following::span[1]")).click();
+    driver.findElement(By.linkText("Find Account")).click();
 	 selectWindow(1 );
-	 selectFrame(2);
-
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Accounts'])[2]/a[1]")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Current Accounts'])[1]/following::img[1]")).click();
-	 selectParentFrame();
-	 selectFrame(4);
-
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='BMO Call Account'])[1]/following::img[1]")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Authorised'])[1]/following::span[1]")).click();
+    driver.findElement(By.linkText("Find")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Unauthorised'])[2]/following::img[1]")).click();
 	 selectWindow(2 );
-    driver.findElement(By.id("fieldName:CUSTOMER:1")).click();
-    driver.findElement(By.id("fieldName:CUSTOMER:1")).clear();
-    driver.findElement(By.id("fieldName:CUSTOMER:1")).sendKeys("3008");
-    driver.findElement(By.id("fieldName:CURRENCY")).clear();
-    driver.findElement(By.id("fieldName:CURRENCY")).sendKeys("USD");
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='New Arrangement'])[1]/preceding::img[11]")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='New Arrangement'])[1]/preceding::img[12]")).click();
+    driver.findElement(By.xpath("//html")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Input'])[1]/following::img[1]")).click();
+	 selectWindow(3 );
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='AA.ARRANGEMENT.ACTIVITY,INPUT.CALL.ACCT.F2B'])[1]/preceding::img[8]")).click();
+    driver.close();
+	 selectWindow(2 );
+    driver.close();
+	 selectWindow(1 );
+    driver.close();
+	 selectWindow(local );
   }
 
 public void selectFrame(int index) {
