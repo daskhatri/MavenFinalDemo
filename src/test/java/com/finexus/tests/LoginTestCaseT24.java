@@ -50,7 +50,7 @@ public class LoginTestCaseT24 {
     driver.close();
 	 selectWindow(1 );
     driver.close();
-	 selectWindow(local );
+	 
   }
 
 public void selectFrame(int index) {
